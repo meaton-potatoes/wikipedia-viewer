@@ -1,0 +1,67 @@
+body {
+	background-color: #E4DBBF;
+}
+
+#main {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5em;
+	padding-top: 5%;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+h1 {
+	color: #DC5B21;
+	font-size: 3em;
+}
+
+button {
+	border-radius: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#results {
+	padding-top: 25px;
+}
+
+input {
+	border-radius: 10px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+ul li {
+	background: #fff;
+}
+
+ul li:hover {
+	background-color: #70AB8F;
+}
+
+.btn {
+	background: #9CF;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.snippet {
+	font-size: 1em;
+}
+
+#results a {
+	color: #000;
+}
+
+#results a:hover{
+	color: #000;
+	text-decoration: none;
+}

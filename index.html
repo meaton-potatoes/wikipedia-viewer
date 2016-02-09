@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Wikipedia Viewer</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./wikipedia-viewer.css">
+	</head>
+
+	<body>
+
+	<div id="main">
+		<h1>Wikipedia Viewer</h1>
+		<input type="text" id="search"></input>
+		<button type="button" class="btn" onclick="searchFunction()">Search</button>
+		<button type="button" class="btn" onclick="randomFunction()">Random</button>
+		<ul id="results"></ul>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="./wikipedia-viewer.js"></script>
+
+
+</body>
+
+</html>
